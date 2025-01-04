@@ -1,7 +1,76 @@
+/* generic, site-wide rules (except for void page) */
 * {
     font-family: 'Comic Sans', sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 a {
     color: green;
+}
+
+/* Index page-specific rules */
+.body-div {
+    
+}
+
+.index-div {
+    background-color: blanchedalmond;
+    margin: 10px 10rem;
+    padding: 20px;
+}
+
+.heading-div {
+
+}
+
+.content-div {
+
+}
+
+.p-div {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.img-div {
+
+}
+
+.list-div li{
+    padding: 20px;
+    margin: 10px;
+    background-color: bisque;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 1px grey;
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+}
+
+/* .li01 {
+    padding-bottom: 5rem;
+}
+
+.li02 {
+    padding-bottom: 10rem;
+}
+
+.li03 {
+    padding-bottom: 5rem;
+}
+
+.li04 {
+    padding-bottom: 15rem;
+} */
+
+.list-div a {
+    font-size: 30px;
+    transition: 1s;
+}
+.list-div a:hover {
+    font-size: 32px;
+    color: blueviolet;
+    transition: 2s;
+
 }
