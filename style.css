@@ -9,6 +9,10 @@ a {
     color: green;
 }
 
+img {
+    padding: 10px;
+}
+
 /* Index page-specific rules */
 .body-div {
     
@@ -21,7 +25,10 @@ a {
 }
 
 .heading-div {
-
+    margin-bottom: -10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid grey;
 }
 
 .content-div {
@@ -31,10 +38,6 @@ a {
 .p-div {
     padding: 10px;
     font-size: 25px;
-}
-
-.img-div {
-
 }
 
 .list-div li{
@@ -64,13 +67,15 @@ a {
     padding-bottom: 15rem;
 } */
 
-.list-div a {
+a {
     font-size: 30px;
     transition: 1s;
 }
-.list-div a:hover {
+a:hover {
     font-size: 32px;
     color: blueviolet;
     transition: 2s;
 
 }
+
+/* Recipe pages */

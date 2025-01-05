@@ -2,4 +2,9 @@
     background-color: black;
     color: peru;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 2s;
+}
+*:hover {
+    font-size: 50px;
+    transition: 2s;
 }
